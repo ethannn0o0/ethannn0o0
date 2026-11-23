@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" width="400" height="340">
+<defs>
+<linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00ff9c"/><stop offset="0.5" stop-color="#00b3ff"/><stop offset="1" stop-color="#b000ff"/></linearGradient>
+<radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#0f1b24"/><stop offset="1" stop-color="#0d1117"/></radialGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow2" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="card"><rect width="400" height="340" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="400" height="340" fill="url(#bg)"/>
+<g font-family="monospace" font-size="11" fill="#00ff9c" opacity="0.22">
+<text x="14" y="30">01101000 0x7f45 SYN</text>
+<text x="270" y="48">ACK 10110 0xDEAD</text>
+<text x="18" y="120">root@ethic:~# nmap -sV</text>
+<text x="262" y="140">[+] port 443 open</text>
+<text x="16" y="215">sudo ./learn --ethical</text>
+<text x="250" y="235">0xCAFEBABE 11001</text>
+<text x="20" y="300">GET /index HTTP/1.1</text>
+<text x="256" y="318">200 OK  // authorized</text>
+</g>
+<g filter="url(#glow)">
+<path d="M60 340 C78 272 135 252 200 252 C265 252 322 272 340 340 Z" fill="#05080c" stroke="url(#neon)" stroke-width="2.5"/>
+<path d="M200 36 C138 36 100 92 100 150 C100 196 120 232 142 256 L258 256 C280 232 300 196 300 150 C300 92 262 36 200 36 Z" fill="#05080c" stroke="url(#neon)" stroke-width="3"/>
+</g>
+<path d="M200 82 C158 82 136 118 136 160 C136 200 163 228 200 228 C237 228 264 200 264 160 C264 118 242 82 200 82 Z" fill="#000"/>
+<path d="M200 82 C158 82 136 118 136 160 C136 200 163 228 200 228 C237 228 264 200 264 160 C264 118 242 82 200 82 Z" fill="none" stroke="#00ff9c" stroke-opacity="0.35" stroke-width="1.5"/>
+<g filter="url(#glow2)">
+<polygon points="156,146 192,154 186,166 156,160" fill="#00ff9c"><animate attributeName="opacity" values="1;1;1;0.15;1;1;0.6;1" dur="4s" repeatCount="indefinite"/></polygon>
+<polygon points="244,146 208,154 214,166 244,160" fill="#00ff9c"><animate attributeName="opacity" values="1;1;1;0.15;1;1;0.6;1" dur="4s" repeatCount="indefinite"/></polygon>
+</g>
+<g font-family="monospace" font-weight="bold" font-size="24" fill="#00ff9c" filter="url(#glow)">
+<text x="172" y="212">&gt;</text>
+<text x="196" y="212">_<animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/></text>
+</g>
+<text x="200" y="312" text-anchor="middle" font-family="monospace" font-size="15" font-weight="bold" letter-spacing="3" fill="#00ff9c" filter="url(#glow)">[ ACCESS GRANTED ]</text>
+<rect x="0" y="-6" width="400" height="4" fill="#00ff9c" opacity="0.13"><animate attributeName="y" values="-6;340" dur="3.5s" repeatCount="indefinite"/></rect>
+<rect width="400" height="340" rx="14" fill="none" stroke="url(#neon)" stroke-width="2.5"/>
+</g>
+</svg>
