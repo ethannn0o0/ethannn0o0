@@ -29,16 +29,16 @@
 ```bash
 $ cat profile.txt
 name      : Ethan
-education : Bachelor's (Malaysia 🇲🇾) → Master's (Australia 🇦🇺)
+education : Cybersecurity, Bachelor's 🇲🇾 + Master's 🇦🇺
 major     : Cybersecurity / 网络安全
 creed     : Hack to learn. Break to build. Disclose responsibly.
 languages : English, 中文
 status    : [██████████░░] learning_in_public = true
 ```
 
-我本科就读于马来西亚，硕士毕业于澳大利亚，两段学业都专注于网络安全。我相信真正的安全来自对系统的深刻理解——先学会像攻击者一样思考，再像防御者一样行动。所有研究都建立在**合法授权**与**负责任披露**之上。
+我本科在马来西亚、硕士在澳大利亚，均就读网络安全专业。我相信真正的安全来自对系统的深刻理解——先学会像攻击者一样思考，再像防御者一样行动。所有研究都建立在**合法授权**与**负责任披露**之上。
 
-I studied cybersecurity in Malaysia (Bachelor's) and Australia (Master's). Real security comes from deeply understanding systems: think like an attacker, act like a defender. All of my research stays within **authorized scope** and **responsible disclosure**.
+I studied cybersecurity at both levels: Bachelor's in Malaysia and Master's in Australia. Real security comes from deeply understanding systems: think like an attacker, act like a defender. All of my research stays within **authorized scope** and **responsible disclosure**.
 
 ## 🎯 `focus_areas[]`
 
