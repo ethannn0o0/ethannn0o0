@@ -8,7 +8,7 @@
 |_| |_|\__,_|\___|_|\_\___|_|  |_____|\__|_| |_|_|\___|
 ```
 
-### `> whoami` &nbsp;→&nbsp; **Ethan** · Cybersecurity · M.Sc. Graduate (Australia 🇦🇺)
+### `> whoami` &nbsp;→&nbsp; **Ethan** · Cybersecurity · Master's Graduate (Australia 🇦🇺)
 
 *黑客精神 —— 好奇、分享、负责。 / Curiosity. Sharing. Responsibility.*
 
