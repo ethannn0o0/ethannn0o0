@@ -12,13 +12,7 @@
 
 <div align="center">
 
-```
- _   _            _             _____ _   _     _      
-| | | | __ _  ___| | _____ _ __| ____| |_| |__ (_) ___ 
-| |_| |/ _` |/ __| |/ / _ \ '__|  _| | __| '_ \| |/ __|
-|  _  | (_| | (__|   <  __/ |  | |___| |_| | | | | (__ 
-|_| |_|\__,_|\___|_|\_\___|_|  |_____|\__|_| |_|_|\___|
-```
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00FF9C,50:00B3FF,100:B000FF&height=3" width="70%" alt="divider"/>
 
 ### `> whoami` &nbsp;→&nbsp; **Ethan** · Cybersecurity · Bachelor's 🇲🇾 + Master's 🇦🇺
 
